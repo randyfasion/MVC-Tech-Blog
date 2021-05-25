@@ -18,7 +18,7 @@ Project.init(
     content: {
       type: DataTypes.STRING,
     },
-    date_created: {
+    date: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -26,6 +26,12 @@ Project.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    // date_created: {
+    //   type: DataTypes.DATE,
+    //   allowNull: false,
+    //   defaultValue: DataTypes.NOW,
+    // },
+    
    
    
     // needed_funding: {
