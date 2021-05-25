@@ -2,9 +2,13 @@
 <div class="row mb-4 project">
   <div class="col-md-5">
 <h2>
-  {{project.title}}
-</h2>
+  {{!-- {{project.title}} --}}
+  <a href="/project/{{project.id}}">{{project.title}}</a>
 
+</h2>
+<p>
+  {{project.content}}
+</p>
   </div>
 </div>
 {{/each}}
