@@ -19,14 +19,13 @@ Project.init(
       type: DataTypes.STRING,
     },
     date_created: {
-      type: DataTypes.DATE,
+      type: DataTypes.STRING,
       allowNull: false,
-      defaultValue: DataTypes.NOW,
     },
-    // username: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false,
-    // },
+    username: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
    
    
     // needed_funding: {
