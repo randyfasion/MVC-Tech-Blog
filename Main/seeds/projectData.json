@@ -8,13 +8,13 @@
   {
     "title": "Authentication vs. Authorization",
     "content": "There is a difference between authentification and authorization. Authentificationn means confirminf your own identity, whereass authorization means being allowed access to the system.",
-    "date": "1/1/21"
+    "date": "5/25/21"
     
   },
   {
     "title": "Object-Relational Mapping",
     "content": "I have loved learning about ORM's. It's really simplified the way I create queries in SQL.",
-    "date": "1/1/21"
+    "date": "2/12/21"
    
   }
 ]
